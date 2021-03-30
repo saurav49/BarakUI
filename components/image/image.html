@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docs</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="image-style.css">
+    <link rel="stylesheet" href="../../docs-style.css">
+</head>
+<body>
+
+    <div class="docs-page">
+        <header>
+            <div class="nav-container nav-container-primary">
+                <nav class="navbar">
+                    <div class="brand">
+                        <i class="fas fa-mountain brand-icon"></i>
+                        <h1 class="brand-title">Barak UI</h1>
+                    </div>
+        
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="nav-link" href="#">home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Documentation</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-btn" href="#">github</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="image-desc">
+                <h1 class="lg">Images</h1>
+                <p class="text-light">Image can be responsive to fit parent's width, it can be customised to rounded shape</p>
+                
+                <h2 class="md">Example</h2>
+                <p class="text-light">You can add <span>img-responsive</span> to the image to make it fit to the parent's width. </p>
+                
+
+                <div class="image-comp">
+                    <div class="image-flex">
+                        <div style="width:35rem;">
+                            <h3>Responsive Image</h3>
+                            <img class="img-responsive" src="https://images.unsplash.com/photo-1616239385506-58f516f347ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80" alt="building-streets">
+                        </div>
+                        
+                        <div>
+                            <h3>Image in different sizes</h3>
+                            <img class="img-responsive img-sm" src="https://images.unsplash.com/photo-1612153284972-7e80a48abcb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=740&q=80" alt="bathroom-img">
+                            <img class="img-responsive img-md" src="https://images.unsplash.com/photo-1612153284972-7e80a48abcb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=740&q=80" alt="bathroom-img">
+                            <img class="img-responsive img-lg" src="https://images.unsplash.com/photo-1612153284972-7e80a48abcb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=740&q=80" alt="bathroom-img">
+                        </div>
+                    
+                        <div>
+                            <h3>Rounded Image</h3>
+                            <img class="img-responsive img-md img-rounded" src="https://images.unsplash.com/photo-1612153284972-7e80a48abcb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=740&q=80" alt="breakfast-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Responsive%2520Image%2520--%253E%250A%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1616239385506-58f516f347ab%253Fixid%253DMXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%25253D%2526ixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D755%2526q%253D80%2522%2520alt%253D%2522building-streets%2522%253E%250A%250A%253C%21--%2520Rounded%2520Image%2520--%253E%250A%253Cimg%2520class%253D%2522img-responsive%2520img-md%2520img-rounded%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1612153284972-7e80a48abcb9%253Fixid%253DMXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%25253D%2526ixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D740%2526q%253D80%2522%2520alt%253D%2522breakfast-img%2522%253E%250A%250A%253C%21--%2520Image%2520in%2520different%2520Size%2520--%253E%250A%253Cimg%2520class%253D%2522img-responsive%2520img-sm%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1612153284972-7e80a48abcb9%253Fixid%253DMXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%25253D%2526ixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D740%2526q%253D80%2522%2520alt%253D%2522bathroom-img%2522%253E%250A%250A%253Cimg%2520class%253D%2522img-responsive%2520img-md%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1612153284972-7e80a48abcb9%253Fixid%253DMXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%25253D%2526ixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D740%2526q%253D80%2522%2520alt%253D%2522bathroom-img%2522%253E%250A%250A%2520%253Cimg%2520class%253D%2522img-responsive%2520img-lg%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1612153284972-7e80a48abcb9%253Fixid%253DMXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%25253D%2526ixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D740%2526q%253D80%2522%2520alt%253D%2522bathroom-img%2522%253E%250A%250A"
+                style="width: 1024px; height: 666px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+                
+
+        </main>
+    
+        <aside>
+            <ul class="aside-ul">
+                <li class="aside-item"><a href="../../getting-started.html">getting started</a></li>
+                <li class="aside-item"><a href="../Layout/layout.html">Introduction</a></li>
+                <li class="aside-item"><a href="../Avatar/avatar.html">avatar</a></li>
+                <li class="aside-item"><a href="../Alert/Alert.html">alert</a></li>
+                <li class="aside-item"><a href="../Badge/badge.html">badge</a></li>
+                <li class="aside-item"><a href="../button/button.html">button</a></li>
+                <li class="aside-item"><a href="../card/card.html">card</a></li>
+                <li class="aside-item"><a href="../image/image.html">image</a></li>
+                <li class="aside-item"><a href="../input/input.html">input</a></li>
+                <li class="aside-item"><a href="../List/list.html">list</a></li>
+                <li class="aside-item"><a href="../Modal/modal.html">modal</a></li>
+                <li class="aside-item"><a href="../Navigation/Navigation.html">navigation</a></li>
+                <li class="aside-item"><a href="../Rating/rating.html">rating</a></li>
+                <li class="aside-item"><a href="../Alert/Alert.html">text styles</a></li>
+                <li class="aside-item"><a href="../Toast/toast.html">toast</a></li>
+            </ul>
+        </aside>
+    </div>
+
+</body>
+</html>

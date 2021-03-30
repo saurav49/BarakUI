@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, "sans-serif";
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+
+.main > .fas {
+  font-size: 10rem;
+  color: var(--bg-primary-light);
+  margin-bottom: 1rem;
+}
+
+.main > h1 {
+  margin: 1.5rem;
+  color: rgb(87, 87, 87);
+}
+
+.main > .sm {
+  margin: 1rem;
+}
+
+.main > .btn > a {
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer > small {
+  letter-spacing: 1.2px;
+}
+
+footer > small > a {
+  color: var(--bg-primary-light);
+  text-decoration: underline;
+}
