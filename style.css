@@ -961,6 +961,18 @@ header {
   color: #fff;
 }
 
+.nav-container-dark {
+  background-color: var(--bg-dark);
+  box-shadow: var(--box-shadow);
+  color: #fff;
+}
+
+.nav-container-light {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+}
+
 .nav-container-success {
   background-color: var(--bg-success);
   box-shadow: var(--box-shadow);
