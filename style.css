@@ -1012,6 +1012,7 @@ header {
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-list {
