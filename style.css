@@ -1045,8 +1045,8 @@ header {
 
 .nav-link-btn-dark {
   border: 1px solid #fff;
-  color: #fff;
-  background-color: #333;
+  color: #333;
+  background-color: #fff;
   padding: 0.5em 1em;
   border-radius: var(--b-rad-02);
   box-shadow: var(--box-shadow);
@@ -1054,8 +1054,8 @@ header {
 
 .nav-link-btn-light {
   border: 1px solid #333;
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background-color: #333;
   padding: 0.5em 1em;
   border-radius: var(--b-rad-02);
   box-shadow: var(--box-shadow);
