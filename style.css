@@ -1036,12 +1036,12 @@ header {
   color: #eee;
 }
 
-.nav-link-btn {
+/* .nav-link-btn {
   border: 1px solid #fff;
   padding: 0.5em 1em;
   border-radius: var(--b-rad-02);
   box-shadow: var(--box-shadow);
-}
+} */
 
 .nav-link-btn-dark {
   border: 1px solid #fff;
