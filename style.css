@@ -1036,8 +1036,17 @@ header {
   color: #eee;
 }
 
-.nav-link-btn {
+.nav-link-btn-dark {
   border: 1px solid #fff;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: var(--b-rad-02);
+  box-shadow: var(--box-shadow);
+}
+
+.nav-link-btn-light {
+  border: 1px solid #333;
+  color: #333;
   padding: 0.5em 1em;
   border-radius: var(--b-rad-02);
   box-shadow: var(--box-shadow);
