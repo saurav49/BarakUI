@@ -962,7 +962,7 @@ header {
 }
 
 .nav-container-dark {
-  background-color: var(--bg-dark);
+  background-color: #15202b;
   box-shadow: var(--box-shadow);
   color: #fff;
 }
