@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, "sans-serif";
+}
+
+main {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alert-desc > h1 {
+  padding: 0.3em 0em;
+  color: #333;
+}
+
+.alert-desc > h2 {
+  padding: 0.7em 0em;
+  color: #333;
+}
+
+.alert-comp {
+  margin: 3em 0em 1em 0em;
+  padding: 1em 0.5em;
+  border: 1px solid #eee;
+  border-radius: var(--b-rad-05);
+  box-shadow: var(--box-shadow);
+}
+
+iframe {
+  text-align: center;
+}

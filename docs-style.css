@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+
+.docs-page {
+  display: grid;
+
+  grid-template-areas:
+    "head head head"
+    "aside main main"
+    "aside main main";
+}
+
+header {
+  grid-area: head;
+}
+
+aside {
+  grid-area: aside;
+  border-right: 2px solid #eee;
+  width: 15rem;
+}
+
+.aside-ul {
+  list-style-type: none;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+
+  /* overflow-y: scroll; */
+}
+
+.aside-item {
+  margin: 0.3em 0em;
+  font-family: Poppins, "sans-serif";
+  text-transform: uppercase;
+  padding: 0.5em;
+  transition: all 0.2s ease-in;
+  font-weight: var(--f-wt-500);
+}
+
+.aside-item:hover {
+  background-color: var(--bg-secondary-light);
+  border-radius: 0.5em;
+  font-weight: var(--f-wt-700);
+  transform: translate(-5px, 5px);
+}
