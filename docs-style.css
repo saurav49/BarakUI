@@ -49,3 +49,10 @@ aside {
   font-weight: var(--f-wt-700);
   transform: translate(-5px, 5px);
 }
+
+.aside-item-active {
+  background-color: pink;
+  border-radius: 0.5em;
+  font-weight: var(--f-wt-700);
+  transform: translate(-5px, 5px);
+}

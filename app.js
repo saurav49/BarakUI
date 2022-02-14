@@ -1,34 +1,28 @@
-// Toast
+// // Toast
+// const btnToast = document.querySelector(".btn-toast");
+// const toastClose = document.querySelector(".toast-close");
+// const toast = document.querySelector(".toast");
 
-const btnToast = document.querySelector(".btn-toast");
-const toastClose = document.querySelector(".toast-close");
-const toast = document.querySelector(".toast");
-
-
-btnToast.addEventListener("click", () => {
-    toast.style.display = "block";
-});
-
-toastClose.addEventListener("click", () => {
-    toast.style.display = "none";
-});
-
-// Modal
-
-// const btnClose = document.querySelector(".modal-close");
-// const modalWindow = document.querySelector(".modal");
-// const modalBtn = document.querySelector("#modal-btn");
-
-// console.log("outside modal");
-
-// modalBtn.addEventListener("click", () => {
-//     console.log(`MODAL`);
-//     modalBtn.style.display = "none";
-//     modalWindow.style.display = "block";
+// btnToast.addEventListener("click", () => {
+//   toast.style.display = "block";
 // });
 
-
-// btnClose.addEventListener("click", () => {
-//     modalWindow.style.display = "none";
-//     modalBtn.style.display = "block";
+// toastClose.addEventListener("click", () => {
+//   toast.style.display = "none";
 // });
+
+// sidebar
+
+// const sidebarItems = document.querySelectorAll(".aside-item");
+
+// for (let i = 0; i < sidebarItems.length; i++) {
+//   sidebarItems[i].addEventListener("click", () => {
+//     let j = 0;
+//     // while (j < sidebarItems.length) {
+//     //   console.log("here");
+//     //   sidebarItems[j++].className = "aside-item";
+//     // }
+//     sidebarItems[i].className = "aside-item aside-item-active";
+//     console.log("there", sidebarItems[i].className);
+//   });
+// }
